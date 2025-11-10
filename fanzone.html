@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BoraVerse — Fan Zone</title>
+  <link rel="stylesheet" href="fanzone.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">💜BORAVERSE</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="Artist.html">Artists</a></li>
+      <li><a href="news.html">News</a></li>
+      <li><a href="Gallery.html">Gallery</a></li>
+      <li><a class="active" href="fanzone.html">Fan Zone</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header>
+    <h1>💜 BoraVerse Fan Zone 💜</h1>
+    <p>Where K-pop fans shine brighter than the stars </p>
+  </header>
+
+  <main>
+    <!-- Fan Art Section -->
+    <section id="fanArt">
+      <h2>Fan Creations</h2>
+      <div class="art-gallery" id="artGallery"></div>
+    </section>
+
+    <!-- Message Wall Section -->
+    <section id="messageWall">
+      <h2>💌 Message to Your Idol</h2>
+      <form id="messageForm">
+        <input type="text" id="fanName" placeholder="Your Name" required>
+        <select id="idolSelect" required>
+          <option value="">Select Idol/Group</option>
+          <option>BTS</option>
+          <option>BLACKPINK</option>
+          <option>EXO</option>
+          <option>NewJeans</option>
+          <option>TWICE</option>
+          <option>Stray Kids</option>
+          <option>Seventeen</option>
+        </select>
+        <textarea id="fanMessage" placeholder="Write your message..." required></textarea>
+        <button type="submit">Post Message 💫</button>
+      </form>
+      <div id="messagesContainer"></div>
+    </section>
+
+    <!-- Fan Poll / Quiz -->
+    <section id="fanPoll">
+      <h2> Fan Fun Zone</h2>
+      <p>Which BTS era is your favorite?</p>
+      <div class="poll-options">
+        <button class="poll-btn" data-option="Dynamite">Dynamite</button>
+        <button class="poll-btn" data-option="Butter">Butter</button>
+        <button class="poll-btn" data-option="DNA">DNA</button>
+      </div>
+      <p id="pollResult"></p>
+    </section>
+
+    <!-- Mini K-pop Trivia Game -->
+    <!-- Mini K-pop Trivia Game -->
+<section id="triviaGame">
+  <h2>🎮 K-pop Trivia Game</h2>
+
+  <div id="triviaContainer">
+    <p id="questionText">Click “Start Quiz 🎤” to begin!</p>
+
+    <!-- Progress bar -->
+    <div id="progressBar">
+      <div id="progressBarInner"></div>
+    </div>
+
+    <!-- Options will appear here -->
+    <div id="optionsContainer"></div>
+
+    <!-- Buttons -->
+    <div class="trivia-buttons">
+      <button id="startTrivia">Start Quiz 🎤</button>
+      <button id="nextQuestion">Next ➡️</button>
+    </div>
+
+    <p id="scoreDisplay">Score: 0</p>
+  </div>
+</section>
+
+  </main>
+
+  <footer>
+    <p>✨ BoraVerse — Connecting Fans Across the Galaxy ✨</p>
+  </footer>
+
+  <script src="fanzone.js"></script>
+</body>
+</html>

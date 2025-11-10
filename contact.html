@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — BoraVerse</title>
+  <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+  <!-- NAVBAR -->
+  <header class="topbar">
+    <div class="logo">BoraVerse</div>
+    <nav>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Artist.html">Artists</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="Gallery.html">Gallery</a></li>
+        <li><a href="fanzone.html">Fan Zone</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="menu-toggle" id="menuToggle">
+      <span></span><span></span><span></span>
+    </div>
+  </header>
+
+  <!-- CONTACT SECTION -->
+  <section class="contact-section">
+    <div class="contact-box">
+      <h1>💜 Contact BoraVerse 💜</h1>
+      <p>Got a question, idea, or just want to say hi? Send us a message!</p>
+      <form id="contactForm">
+        <div class="input-group">
+          <input type="text" id="name" placeholder="Your Name" required>
+        </div>
+        <div class="input-group">
+          <input type="email" id="email" placeholder="Your Email" required>
+        </div>
+        <div class="input-group">
+          <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="submit-btn">Send Message</button>
+      </form>
+      <div id="formMessage"></div>
+    </div>
+  </section>
+
+  <script src="contact.js"></script>
+</body>
+</html>

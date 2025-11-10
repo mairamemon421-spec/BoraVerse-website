@@ -1,0 +1,141 @@
+
+    @font-face {
+        font-family: mkfont;
+        src: url('https://www.dafont.com/chinese-dragon.font'),format("open font");
+    }
+*{
+    margin :0px;
+    padding: 0%;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "mkfont";
+    box-sizing:content-box;
+}
+body {
+ flex-wrap: wrap;
+align-items: center;
+background-attachment: fixed;
+background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://btsnscreation.netlify.app/bangtan%20boys.jpg");
+background-repeat:no-repeat;
+background-size:cover, cover;
+box-sizing:content-box;
+display:grid;
+font-family:"mkfont";
+height: 128px;
+justify-items: center;
+margin-bottom: 0px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+padding-bottom: 0px;
+padding-left: 0px;
+padding-right: 0px;
+padding-top: 0px;
+text-align: center;
+width: 1333px
+}
+
+section{ 
+    flex-wrap: wrap; 
+    width: 100%;
+    height: 100vh; /* exactly one screen high */
+    display: grid;
+    place-items: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.section{
+    background-image:linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)), url("");
+}
+.section-1{
+     background-image:linear-gradient(
+        rgba(0,0,0,.3),rgba(0,0,0,.3)),  url("award\ day.jpeg");
+}
+.section-2{
+    background-image:linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1)), url("white\ house\ visit.jpg");
+}
+.section-23{
+    background-image:linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1)), url("militery\ enrollment.jpeg");
+}
+.section-4{
+    background-image:url("debut\ picture.jpeg");}
+.section-3{
+    background-image:linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1)), url("family.jpeg");}
+
+.section-5{
+     background-image:linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1)), url("army.jpeg");
+}
+.section-6{
+     background-image:linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1)), url("grammy.jpeg");
+}
+.section-7{ 
+    background-image:linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1)), url("global\ icon.jpeg");
+}
+.section-8{
+     background-image:linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1)), url("song.jpeg");
+}
+.section-9{
+     background-image:linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1)), url("members.jpeg");
+}
+.section-10{
+     background-image:linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1)), url("fanbase.jpeg");
+}
+.section-11{
+     background-image:linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1)), url("tour.jpeg");
+}
+.section-12{
+     background-image:linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1)), url("philanthropist.jpeg");
+}
+.section-13{
+     background-image:linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1)), url("cultural.jpeg");
+}
+.section-14{
+     background-image:linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1)), url("influential.jpeg");
+}
+.section-15{ 
+    background-image:linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1)), url("music\ show.jpeg");
+}
+.section-16{ 
+    background-image:linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1)), url("future.jpeg");
+}
+.section-17{ 
+    background-image:linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1)), url("global\ awards.jpeg");
+}
+.section-18{
+     background-image:linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1)), url("appeal.jpeg");
+}
+.section-19{ 
+    background-image:linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1)), url("collaboration.jpeg");
+}
+.section-20{
+     background-image:linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1)), url("charity.jpeg");
+}
+.section-21{ 
+    background-image:linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1)), url("documentry.jpeg");
+}
+.section-22{ 
+    background-image:linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1)), url("end.jpeg");
+}
+h2{
+    font-size: 44px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #3b1044;
+    text-shadow: 2px 2px 5px #000;
+    
+}
+p{
+    font-size: 20px;
+    color: #ffff;
+}
+button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #3b1044;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
